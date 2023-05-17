@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+
+/* Your CSS Code here. */
+
+
+
+
+body{
+  background-color: #f5f5f5;
+  display: grid;
+  grid-template-areas: 
+  'header header header header'
+  'left center center right'
+  'none none none right';
+  grid-gap: 5px;
+}
+
+img{
+  height: 150px;
+  margin: 20px;
+}
+#header-content{
+  grid-area: header;
+  background-color: #011e29;
+  display: grid;
+  justify-content: center;
+  /*height: 100px; */
+  /* display: flex; */
+}
+
+.text-increase{
+  font-size: 20px;
+}
+
+#header-text{
+  color: white;
+}
+
+
+
+
+#left-content{
+  background-color: white;
+  margin-left: 50px;
+  grid-area: left;
+  border-radius: 15px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+#center-content{
+  background-color: white;
+  grid-area: center;
+  border-radius: 15px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+#right-content{
+  background-color: white;
+  grid-area: right;
+  border-radius: 15px;
+  margin-right: 50px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
