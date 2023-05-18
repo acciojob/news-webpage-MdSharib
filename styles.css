@@ -28,7 +28,7 @@ header{
   /* display: flex; */
 }
 
-.text-increase{
+.latest-news-section{
   font-size: 20px;
 }
 
@@ -57,7 +57,8 @@ header{
   justify-content: center;
   text-align: center;
 }
-#right-content{
+
+.pictorial-news-section{
   background-color: white;
   grid-area: right;
   border-radius: 15px;
